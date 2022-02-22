@@ -19,24 +19,23 @@
             android:layout_marginLeft="5dp">
 
             <TextView
-                android:id="@+id/prenom"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="Naruto" />
-
-            <TextView
                 android:id="@+id/nom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="Uzumaki" />
+                tools:hint="Nom du driver" />
+
+            <TextView
+                android:id="@+id/equipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:hint="Nom equipe" />
         </LinearLayout>
 
-        <ImageView
-            android:id="@+id/img"
-            android:layout_width="314dp"
-            android:layout_height="50dp"
-
-            tools:src="@drawable/naruto" />
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:hint="500" />
 
     </LinearLayout>
 </LinearLayout>
